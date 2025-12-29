@@ -1,6 +1,6 @@
-# 📘 Beginner Machine Learning Project – Traditional ML on Structured Data
+# Beginner Machine Learning Project – Traditional ML on Structured Data
 
-Welcome to one of the early steps in **My AI Learning Journey**!  
+Welcome to one of the early steps in **My AI and Data Science Learning Journey**!  
 This project is a beginner-friendly, **supervised learning** application using traditional **Machine Learning** techniques on a **structured dataset**.
 
 ---
@@ -14,10 +14,6 @@ In this project, I explored core ML concepts such as:
 - Applying classification/regression using traditional ML algorithms
 
 The goal was to build a simple, interpretable ML model on a structured dataset as part of strengthening foundational skills in AI and data science.
-
----
-  
-> 📌 Dataset is suitable for supervised learning tasks like classification or regression.
 
 ---
 
