@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Prediction System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>🎾 Tennis Predictor</h1>
+            <p>Enter weather conditions to see if you should play.</p>
+            
+            <div class="input-group">
+                <label for="outlook">Outlook</label>
+                <select id="outlook">
+                    <option value="Sunny">Sunny</option>
+                    <option value="Overcast">Overcast</option>
+                    <option value="Rain">Rain</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="temp">Temperature</label>
+                <select id="temp">
+                    <option value="Hot">Hot</option>
+                    <option value="Mild">Mild</option>
+                    <option value="Cool">Cool</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="humidity">Humidity</label>
+                <select id="humidity">
+                    <option value="High">High</option>
+                    <option value="Normal">Normal</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="wind">Wind</label>
+                <select id="wind">
+                    <option value="Weak">Weak</option>
+                    <option value="Strong">Strong</option>
+                </select>
+            </div>
+
+            <button id="predictBtn">Get Prediction</button>
+            
+            <div id="resultContainer" class="hidden">
+                <p>Recommendation:</p>
+                <div id="resultValue"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
